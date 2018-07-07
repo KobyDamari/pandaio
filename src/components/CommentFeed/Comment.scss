@@ -1,0 +1,19 @@
+.comments-feed__comments-comment-list__comment-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+
+  & > div {
+    padding: 0 5px;
+
+    img {
+      border-radius: 10px;
+      width: 60px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
