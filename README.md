@@ -1,5 +1,7 @@
 # Panda.IO Test
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/KobyDamari/pandaio.svg)](https://greenkeeper.io/)
+
 ## Installation
 1. Clone/download repo
 2. `npm install`
