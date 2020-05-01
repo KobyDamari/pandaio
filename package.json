@@ -30,7 +30,9 @@
     "start": "npm run start-dev",
     "start-dev": "webpack-dev-server --config=configs/webpack/dev",
     "start-prod": "npm run build && node express.js",
-    "test": "jest --watch --coverage --config=configs/jest.json"
+    "test": "jest --watch --coverage --config=configs/jest.json",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -74,7 +76,9 @@
     "cors": "^2.8.4",
     "md5": "^2.2.1",
     "mongodb": "^3.1.0",
-    "mongoose": "^5.2.1"
+    "mongoose": "^5.2.1",
+    "snyk": "^1.316.1"
   },
-  "postcss": {}
+  "postcss": {},
+  "snyk": true
 }
